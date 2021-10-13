@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Certificate</title>
+</head>
+<body>
+    <h1>Certificate</h1>
+     {{ first_name }} &nbsp; {{ last_name}}
+     <br>
+     {{ position }}
+     <br>
+     {{ event }}
+     <br>
+     {{ uid }}
+     <br>
+     {% autoescape off %}
+     {{ qr_code }} 
+     {% endautoescape %}
+</body>
+</html>
